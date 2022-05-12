@@ -82,7 +82,7 @@ function Header() {
       <Container>
         <Toolbar>
           <Typography
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/crypto")}
             className={classes.title}
             variant="h">
             Crypto App
