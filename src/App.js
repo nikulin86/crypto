@@ -30,7 +30,7 @@ function App() {
         <Paper style={{ height: "100%" }}>
           <Header />
           <Routes>
-            <Route exact path="/" element={<Homepage />} />
+            <Route exact path="/crypto" element={<Homepage />} />
             <Route path="/coins" element={<CoinPage />} >
               <Route path=':id' element={<CoinPage />} />
             </Route>
